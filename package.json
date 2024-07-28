@@ -4,7 +4,7 @@
   "description": "AI SAAS App",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Jay Madane",
   "license": "ISC",
