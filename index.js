@@ -17,7 +17,19 @@ connectToDB(process.env.MONGODB_URL)
     console.log("MongoDB Connected");
 });
 
-app.use(cors());
+const allowedOrigins = ['https://cleverly-ai-client-side.vercel.app'];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
+};
+
+app.use(cors(corsOptions));
 app.use('/api/webhook', express.raw({ type: 'application/json' }));
 
 app.use(express.json());
