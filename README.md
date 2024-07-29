@@ -17,7 +17,7 @@ Welcome to the server-side repository of **Cleverly.ai**, a SaaS AI platform des
 
 ## Technologies Used
 
-- **NodeJS & ExpressJS**: For building the server and handling API requests.
+- **Node.js & Express.js**: For building the server and handling API requests.
 - **TypeScript**: For type safety and better development experience.
 - **MongoDB**: For the database.
 - **Clerk**: For secure user authentication and management.
