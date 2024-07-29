@@ -1,10 +1,10 @@
 # Cleverly Server Side Application
 
-Welcome to the server-side repository of **Cleverly.ai**, a SaaS AI platform designed to provide advanced AI tools for various applications. This project is built using modern technologies including NodeJS, ExpressJS, TypeScript, and MongoDB.
+Welcome to the server-side repository of **Cleverly.ai**, a SaaS AI platform designed to provide advanced AI tools for various applications. This project is built using modern technologies including Node.js, Express.js, TypeScript, and MongoDB.
 
 ## Features
 
-**AI Tools Backend**: Support for 5 advanced AI tools powered by GeminiAI and ReplicateAI models.
+**AI Tools Backend**: Support for 5 advanced AI tools powered by Gemini and Replicate AI models.
   - Conversation Generation
   - Code Generation
   - Image Generation
